@@ -31,8 +31,8 @@ export default function DashboardPage() {
         <div>
           <h1 className="text-xl font-bold text-blue-600 mb-8">SocialPost</h1>
           <nav className="space-y-2">
-            <a href="#" className="block px-4 py-2 rounded-lg bg-blue-50 text-blue-600 font-medium">Dashboard</a>
-            <a href="#" className="block px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-50">Accounts</a>
+            <a href="/dashboard" className="block px-4 py-2 rounded-lg bg-blue-50 text-blue-600 font-medium">Dashboard</a>
+            <a href="/dashboard/accounts" className="block px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-50">Accounts</a>
             <a href="#" className="block px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-50">Analytics</a>
           </nav>
         </div>
