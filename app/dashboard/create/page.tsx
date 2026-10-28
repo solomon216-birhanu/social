@@ -92,7 +92,11 @@ export default function CreatePostPage() {
                     key={platform.id}
                     type="button"
                     onClick={() => togglePlatform(platform.id)}
-                    className={px-4 py-2 rounded-lg text-sm font-medium border transition \}
+                    className={`px-4 py-2 rounded-lg text-sm font-medium border transition ${
+                      isSelected
+                        ? "bg-blue-50 border-blue-500 text-blue-600"
+                        : "border-gray-300 text-gray-700 hover:bg-gray-50"
+                    }`}
                   >
                     {platform.name}
                   </button>
