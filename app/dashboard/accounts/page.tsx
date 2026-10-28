@@ -41,6 +41,7 @@ export default function AccountsPage() {
           <nav className="space-y-2">
             <a href="/dashboard" className="block px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-50">Dashboard</a>
             <a href="/dashboard/accounts" className="block px-4 py-2 rounded-lg bg-blue-50 text-blue-600 font-medium">Accounts</a>
+            <a href="/dashboard/create" className="block px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-50">Create Post</a>
             <a href="#" className="block px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-50">Analytics</a>
           </nav>
         </div>
